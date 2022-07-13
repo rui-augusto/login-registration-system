@@ -1,0 +1,64 @@
+.fullScreenArea {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+}
+
+.mainContentArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    bottom: 15%; top: 15%; right: 0; left: 0;
+    margin: 0 auto;
+    
+    border: 1px solid #9B14B1;
+    border-radius: 20px;
+    width: 25%;
+    padding: 80px 0;
+}
+
+.upsideArea {
+    padding-bottom: 12%;
+}
+
+.icons {
+    font-size: 7em;
+    color: #9B14B1;
+    border: 3px solid #9B14B1;
+    border-radius: 100px;
+}
+
+.inputFormat {
+    width: 80%;
+    height: 2.4em;
+    margin: 0.6em 0;
+    border-radius: 0.5em;
+    background-color: #9B14B1;
+    color: #D9D9D9;
+}
+
+.buttonFormat {
+    width: 40%;
+    height: 2em;
+    margin-top: 0.2em;
+    border-radius: 0.5em; 
+    background-color: #212121;
+    color: #FFFFFF;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.buttonFormat:hover {
+    background-color: #9B14B1;
+}
+
+::placeholder {
+    color: #D9D9D9;
+    padding-left: 0.4em;
+}
+
+.navigationLink {
+    color: #D0D0D0;
+}
